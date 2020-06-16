@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Travel Form</title>
+  </head>
+  <body>
+    
+    <h1 id="header">Travel Form</h1>
+    <p id="p">Please make your selections to book your flight.</p></div>
+    <div class="border-holder">
+    <div id="border">
+    <form name="form">
+      <!-- input boxes -->
+      <div id="first-name"> <input type="text" name="firstName"> First Name</input></div>
+      <div id="last-name"><input type="text" name="lastName" > Last Name </input></div>
+      <div id="age"><input type="number" name="age" id="age"> Age </input></div>
+
+
+      <div id="female"><input type="radio" name="gender" value="female" id="female"> Female </input></div> 
+      <div id="male"><input type="radio" name="gender" value="male" id="male"> Male </input> </div>
+    <!--select option -->
+      <div class="select-holder">
+      <select name="country">
+        <option value="Paris"> Paris </option>
+        <option value="Chile"> Chile </option>
+        <option value="Maldives">Maldives</option>
+      </select>
+    </div>
+<!--checkboxes -->
+      <div class="checkbox-holder">
+      <input type="checkbox" value="vegeterian" name="food" id="vegeterian"> Vegeterian </input>
+      <input type="checkbox" value="kosher" name="food"> Kosher </input> 
+      <input type="checkbox" value="vegan" name="food"> Vegan </input> 
+    </div>
+    
+    <!-- button -->
+    <div id="btn-holder"><button>Submit</button></div>
+    </form>
+  </div>
+</div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.border-holder {
+  display: flex;
+  justify-content: center;
+}
+
+#border {
+  border: solid 1px;
+  height: 200px;
+  width: 350px;
+  background-color: beige;
+}
+
+#header,
+#p {
+  display: flex;
+  justify-content: center;
+}
+
+#first-name,
+#last-name,
+#age,
+#female,
+#male {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+}
+
+.select-holder {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+}
+
+.checkbox-holder {
+  display: flex;
+  margin: 10px;
+  background-color: lightblue;
+  justify-content: center;
+}
+
+#btn-holder {
+  justify-content: center;
+  height: 20px;
+  display: flex;
+}
